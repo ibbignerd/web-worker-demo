@@ -1,0 +1,24 @@
+/* ******************************************************************************
+ * Classification: UNCLASSIFIED
+ ***************************************************************************** */
+
+$fa-font-path: "~@fortawesome/fontawesome-free/webfonts" !default;
+$icon-font-path: "~bootstrap-sass/assets/fonts/bootstrap/";
+
+body {
+  overflow: hidden;
+  height: 100%;
+}
+
+:focus,
+.btn:focus,
+.btn:active:focus {
+  outline: none;
+}
+
+#fps {
+  position: absolute;
+  right: 115px;
+  bottom: 19vh;
+  font-size: 40px;
+}
